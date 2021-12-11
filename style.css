@@ -1,0 +1,87 @@
+
+/* Write some CSS below */
+H1 {color: lightyellow;}
+
+
+h3 {color: darkgrey;}
+
+
+body {font-family:'Fuzzy Bubbles', cursive; 
+font-size: 18px;  
+color: rgb(30, 30, 30); 
+background: rgb(230, 230, 230);}
+
+li {
+display: inline;
+	padding: 10px;}
+
+
+a {text-decoration: none;}
+
+
+
+
+/* custom class design */
+
+
+
+.banner {
+background-image: url(images/ciel-etoile.jpg);
+background-size: cover;
+color: white;
+text-align: center;
+padding: 100px 30px;
+}
+
+.card{
+background: white;	
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+padding: 18px;
+border-radius: 3px;
+margin: 20px;
+
+}
+
+.card img{
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.container {
+width: 800px;
+margin: auto;
+
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;}
+
+
+.footer{
+	background: darkblue;
+	text-align: center;
+	padding: 24px 0px;
+}
+
+
+
+.footer p{
+color: white;}
+
+.list-inline{ 
+
+ }
+
+/* Cards media queries */
+@media (max-width: 800px) {.card {grid-template-columns: 1fr}}
+
+/* Containers media queries*/
+@media (min-width: 500px) {.container {width: 400px}}
+
+@media (min-width: 800px) {.container {width: 600px}}
+
+@media (min-width: 1000px) {.container {width: 800px}}
